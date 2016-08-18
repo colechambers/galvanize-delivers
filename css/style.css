@@ -12,3 +12,12 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.hero{
+background-image: url("../img/hero.jpg");
+/*background-size: cover;*/
+background-repeat: no-repeat;
+padding: 100px;
+margin: 0px;
+width: 100%;
+}
