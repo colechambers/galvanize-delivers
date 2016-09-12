@@ -13,117 +13,171 @@
 </head>
 
 <body>
-    <nav class="light-blue lighten-1" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Galvanize Delivers</a>
+    <nav class="red accent-3" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Galvanize Delivers</a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">Order Delivery</a></li>
+                <li><a href="checkout.html">Order Delivery</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Navbar Link</a></li>
+                <li><a href="index.html">Home</a></li>
             </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            <a href="index.html" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
         </div>
     </nav>
-    <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-          <div class="row">
-              <div class="col s4">
-                  <div class="card">
-                      <div class="card-image">
-                          <img src="img/burger.jpg">
-                          <span class="card-title"></span>
-                      </div>
-                      <div class="card-content">
-                          <p>Royale with Cheese</p>
-                      </div>
-                      <div class="card-action">
-                          <a href="#">ADD TO ORDER</a>
-                      </div>
-                  </div>
-              </div>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m7">
+            <h4>Menu</h4>
 
-
-                <div class="col s4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/pizza.jpg">
-                            <span class="card-title"></span>
-                        </div>
-                        <div class="card-content">
-                            <p>Arugula Pie</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">ADD TO ORDER</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s4" >
-            <table class="striped">
-              <thead>
-                <tr>
-                    <th data-field="item">Item</th>
-                    <th data-field="name"></th>
-                    <th data-field="price">Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Royale with Cheese</td>
-                  <td></td>
-                  <td>$0.87</td>
-                </tr>
-                <tr>
-                  <td>Arugula Pie</td>
-                  <td></td>
-                  <td>$3.76</td>
-                </tr>
-                <tr>
-                  <td>Smoked Swine</td>
-                  <td></td>
-                  <td>$7.00</td>
-                </tr>
-                <tr>
-                  <td>Ice Cream Biscuit</td>
-                  <td></td>
-                  <td>$9.99</td>
-                </tr>
-              </tbody>
-            </table>
-                </div>
-              </div>
             <div class="row">
-              <div class="col s4">
+              <div class="col s12 m12 l6">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="img/ribs.jpg">
-                        <span class="card-title"></span>
-                    </div>
-                    <div class="card-content">
-                        <p>Smoked Swine</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">ADD TO ORDER</a>
-                    </div>
+                  <div class="card-image">
+                    <img src="img/burger.jpg" alt="burger" />
+                  </div>
+
+                  <div class="card-content">
+                    <span class="card-title">Cheese Burger</span>
+                    <p>$10.99</p>
+                  </div>
+
+                  <div class="card-action">
+                    <a href="#" class="addItem">Add to order</a>
+                  </div>
                 </div>
               </div>
-              <div class="col s4">
+
+              <div class="col s12 m12 l6">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="img/ice_cream.jpg">
-                        <span class="card-title"></span>
-                    </div>
-                    <div class="card-content">
-                        <p>Ice Cream Biscuit</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#">ADD TO ORDER</a>
-                    </div>
+                  <div class="card-image">
+                    <img src="img/pizza.jpg" alt="pizza" />
+                  </div>
+
+                  <div class="card-content">
+                    <span class="card-title">Veggie Pizza</span>
+                    <p>$16.99</p>
+                  </div>
+
+                  <div class="card-action">
+                    <a href="#" class="addItem">Add to order</a>
+                  </div>
                 </div>
               </div>
             </div>
+
+            <div class="row">
+              <div class="col s12 m12 l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/ribs.jpg" alt="ribs" />
+                  </div>
+
+                  <div class="card-content">
+                    <span class="card-title">Rib Dinner</span>
+                    <p>$17.99</p>
+                  </div>
+
+                  <div class="card-action">
+                    <a href="#" class="addItem">Add to order</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col s12 m12 l6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="img/ice_cream.jpg" alt="icecream" />
+                  </div>
+
+                  <div class="card-content">
+                    <span class="card-title">Ice Cream</span>
+                    <p>$5.99</p>
+                  </div>
+
+                  <div class="card-action">
+                    <a href="#" class="addItem">Add to order</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m5">
+            <h4>Order</h4>
+
+            <table class="striped">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th class="right-align">Price</th>
+                </tr>
+              </thead>
+
+              <tbody>
+              </tbody>
+
+              <tfoot>
+                <tr>
+                  <td class="right-align">Subtotal</td>
+                  <td class="right-align" id="subtotal"></td>
+                </tr>
+                <tr>
+                  <td class="right-align">Tax</td>
+                  <td class="right-align" id="tax"></td>
+                </tr>
+                <tr>
+                  <td class="right-align">Total</td>
+                  <td class="right-align" id="total"></td>
+                </tr>
+              </tfoot>
+            </table>
+
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="name" type="text">
+                  <label for="name" data-error="required">
+                    Name
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="phone_number" type="text">
+                  <label for="phone_number" data-error="required">
+                    Phone number
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">business</i>
+                  <textarea id="address" class="materialize-textarea"></textarea>
+                  <label for="address" data-error="required">
+                    Address
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="co s12 center">
+                  <a id="placeOrder" class="waves-effect waves-light btn-large pink accent-2">
+                    Place Order
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
-    </div>
+      </div>
+    </main>
+
 
   <!--  </div> -->
     <br>
@@ -134,7 +188,7 @@
         </div>
     </div>
 
-    <footer class="page-footer orange">
+    <footer class="page-footer red accent-3">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -146,8 +200,8 @@
                 <div class="col l3 s12">
                     <h5 class="white-text"></h5>
                     <ul>
-                        <li><a class="white-text" href="#!">Home</a></li>
-                        <li><a class="white-text" href="#!">Order Delivery</a></li>
+                        <li><a class="white-text" href="index.html">Home</a></li>
+                        <li><a class="white-text" href="checkout.html">Order Delivery</a></li>
                     </ul>
                 </div>
                 <!--<div class="col l3 s12">
@@ -163,7 +217,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                &copy 2016 <a class="orange-text text-lighten-3" href="#">Galvanize Delivers</a>
+                &copy; 2016 <a class="red-text text-lighten-3" href="index.html">Galvanize Delivers</a>
             </div>
         </div>
     </footer>
@@ -173,6 +227,7 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
+<script src="js/cart.js"></script>
 
 </body>
 
